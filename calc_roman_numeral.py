@@ -32,9 +32,10 @@ def roman_calc(roman_digits):
         else:
             r_list.append(j)
 
-roman_input = 'mxxiv'
+roman_input = 'mxxiv' # The roman numeral to be converted to digits.
 roman_numbers = roman_To_Digits(roman_input)
 print(f"ORIGINAL numbers: {roman_numbers}")
 res = roman_calc(roman_numbers)
-print(res)
+
 print(f"Final tally= {sum(res)}")
+
